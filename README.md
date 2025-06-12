@@ -1,45 +1,37 @@
-# Classificação de Imagens - CIFAR-10
+# Trabalhos Computacionais - NIA
 
-Este repositório contém o notebook `CIFAR10.ipynb`, desenvolvido como parte do Trabalho Computacional 3 da disciplina.
+Este repositório contém os Trabalhos Computacionais desenvolvidos na disciplina, organizados em subpastas por tema.
 
-## Objetivo do Trabalho
+## Estrutura do Repositório
 
-O trabalho tem como objetivo comparar o desempenho de:
+- **Trabalho1-Wine/** → Classificação de dados da base Wine
+- **Trabalho2-MNIST/** → Classificação de dígitos manuscritos (MNIST)
+- **Trabalho3-CIFAR10/** → Classificação de imagens da base CIFAR-10 (Transfer Learning com VGG16)
 
-- um Perceptron Multicamadas (MLP), treinado sobre a base CIFAR-10
-- uma rede convolucional pré-treinada (VGG16), aplicada via Transfer Learning
+Cada subpasta contém:
 
-Foram utilizados conceitos como Early Stopping e redimensionamento de imagens para otimização do processo de treinamento.
+- um notebook `.ipynb` correspondente ao trabalho
+- um `README.md` com informações sobre o trabalho e instruções de execução
 
-## Estrutura do Trabalho
+## Como abrir os notebooks
 
-O notebook está organizado em três etapas principais:
+⚠️ Os notebooks foram desenvolvidos no Google Colab.  
+O preview no GitHub pode não funcionar corretamente.
 
-1. **Preparação da base de dados** (CIFAR-10)
-2. **Treinamento de um MLP com imagens redimensionadas**
-3. **Treinamento da rede VGG16 com Transfer Learning**
-4. **Comparação dos resultados obtidos**
+Para abrir os notebooks:
 
-## Como abrir o notebook
+1. Clone o repositório ou baixe os arquivos `.ipynb`.
+2. Acesse [Google Colab](https://colab.research.google.com/).
+3. No menu **Arquivo > Carregar notebook** e selecione o arquivo desejado.
 
-⚠️ O notebook foi desenvolvido no Google Colab.  
-Ao visualizar pelo GitHub, o preview pode não funcionar corretamente.
+Ou ainda:
 
-Para abrir o notebook:
-
-1. Clone o repositório ou baixe o arquivo `CIFAR10.ipynb`
-2. Acesse [Google Colab](https://colab.research.google.com/)
-3. No menu **Arquivo > Carregar notebook** e selecione o arquivo `CIFAR10.ipynb`
-
-**Ou ainda:**
-
-- No GitHub, clique com o botão direito no arquivo `CIFAR10.ipynb` → **Copiar link**  
-- Acesse o [Colab](https://colab.research.google.com/) → guia **GitHub** → cole o link do notebook.
+- No GitHub, copie o link do notebook `.ipynb` e abra pelo Colab (aba **GitHub**).
 
 ## Observação
 
-O preview no GitHub pode exibir a mensagem `Invalid Notebook` devido a metadados específicos do Colab.  
-O notebook funciona normalmente no Google Colab.
+O preview de notebooks no GitHub pode exibir a mensagem `Invalid Notebook` devido a metadados gerados pelo Colab.  
+Os notebooks funcionam normalmente ao serem abertos no Google Colab.
 
 ## Autor
 

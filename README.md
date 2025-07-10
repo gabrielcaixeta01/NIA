@@ -33,4 +33,5 @@ Ou:
 
 O preview de notebooks no GitHub pode exibir a mensagem *"Invalid Notebook"* devido a metadados do Colab.  
 Os notebooks funcionam normalmente ao serem abertos diretamente no **Google Colab**.
+
 ---
